@@ -4,7 +4,7 @@ import SlimSelect from 'slim-select';
 import '/node_modules/slim-select/dist/slimselect.css';
 import Notiflix from 'notiflix';
 
-refs = {
+const refs = {
   breedSelect: document.querySelector('.breed-select'),
   loader: document.querySelector('.loader'),
   error: document.querySelector('.error'),
