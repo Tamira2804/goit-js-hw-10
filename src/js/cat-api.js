@@ -2,7 +2,7 @@ const API_KEY =
   'live_TrS19Kwl97618lIqTZGGNvqd8Kmru4aLtkXcdSHBDvu9xpJN346l82g7ukXxKBhf';
 const BASE_URL = `https://api.thecatapi.com/v1`;
 
-refs = {
+const refs = {
   breedSelect: document.querySelector('.breed-select'),
   loader: document.querySelector('.loader'),
 };
