@@ -11,8 +11,6 @@ const refs = {
   catInfo: document.querySelector('.cat-info'),
 };
 
-refs.error.classList.add('hidden');
-
 fetchBreeds()
   .then(breeds => {
     refs.breedSelect.classList.remove('hidden');
